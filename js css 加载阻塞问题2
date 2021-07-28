@@ -1,1 +1,79 @@
-<mxfile host="app.diagrams.net" modified="2021-07-28T03:28:48.189Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" version="14.9.2" etag="r3yWAVdFPNDgtNsYgzhv" type="github"><diagram id="Hx2cC4W7b_ktTSqiJrE-">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-28T03:53:06.980Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="GUD9CNMtaIA8sYJ_YVR_" version="14.9.2" type="github">
+  <diagram id="Hx2cC4W7b_ktTSqiJrE-" name="Page-1">
+    <mxGraphModel dx="1394" dy="674" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-44" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="P_pUKtgAsEh5Sawkw4wA-1" target="P_pUKtgAsEh5Sawkw4wA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-1" value="浏览器渲染" style="whiteSpace=wrap;html=1;gradientColor=#ffffff;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="130" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-28" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.007;entryY=0.64;entryDx=0;entryDy=0;entryPerimeter=0;sketch=1;" edge="1" parent="1" source="P_pUKtgAsEh5Sawkw4wA-2" target="P_pUKtgAsEh5Sawkw4wA-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-2" value="解析 HTML生成 DOM 树" style="whiteSpace=wrap;html=1;gradientColor=#ffffff;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="230" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-11" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="P_pUKtgAsEh5Sawkw4wA-5" target="P_pUKtgAsEh5Sawkw4wA-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-5" value="两者结合生成 Render Tree" style="whiteSpace=wrap;html=1;gradientColor=#ffffff;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="344" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-32" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="P_pUKtgAsEh5Sawkw4wA-8" target="P_pUKtgAsEh5Sawkw4wA-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-34" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="P_pUKtgAsEh5Sawkw4wA-8" target="P_pUKtgAsEh5Sawkw4wA-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-37" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="P_pUKtgAsEh5Sawkw4wA-8" target="P_pUKtgAsEh5Sawkw4wA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-8" value="解析 CSS 生成 CSSOM树" style="whiteSpace=wrap;html=1;gradientColor=#ffffff;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="70" y="390" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-13" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="P_pUKtgAsEh5Sawkw4wA-10" target="P_pUKtgAsEh5Sawkw4wA-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-10" value="根据生成的 Render Tree 进行回流和重绘" style="whiteSpace=wrap;html=1;gradientColor=#ffffff;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="344" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-12" value="CPU 绘制" style="whiteSpace=wrap;html=1;gradientColor=#ffffff;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="344" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-29" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="P_pUKtgAsEh5Sawkw4wA-27" target="P_pUKtgAsEh5Sawkw4wA-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-43" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;sketch=1;" edge="1" parent="1" source="P_pUKtgAsEh5Sawkw4wA-27" target="P_pUKtgAsEh5Sawkw4wA-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-27" value="预先加载 JS，如果存在&amp;lt;script&amp;gt; 等外部资源则直接运行&amp;nbsp;" style="whiteSpace=wrap;html=1;gradientColor=#ffffff;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="300" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-33" value="不阻塞DOM解析" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="324" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-38" value="阻塞 JS 加载" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="370" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-39" value="会阻塞 DOM 渲染" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="374" width="100" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-40" value="&lt;h1&gt;JS 会阻塞 DOM解析&lt;/h1&gt;&lt;p&gt;首先浏览器无法知晓JS的具体内容，倘若先解析DOM，万一JS内部全部删除掉DOM，那么浏览器就白忙活了，所以就干脆暂停解析DOM，等到JS执行完成再继续解析。&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="150" width="230" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-41" value="&lt;h1&gt;CSS 会阻塞 JS执行&lt;/h1&gt;&lt;p&gt;设想JS脚本中的内容是获取DOM元素的CSS样式属性，如果JS想要获取到DOM最新的正确的样式，势必需要所有的CSS加载完成，否则获取的样式可能是错误或者不是最新的。因此要等到JS脚本前面的CSS加载完成，JS才能再执行，并且不管JS脚本中是否获取DOM元素的样式，浏览器都要这样做。&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="211" y="432" width="229" height="168" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-42" value="&lt;h1&gt;CSS 会阻塞 DOM 渲染&lt;/h1&gt;&lt;p&gt;CSS不会阻塞页面DOM的解析，但是由于render tree的生成是依赖DOM Tree和CSSOM Tree的，因此CSS必然会阻塞DOM的渲染。更为严谨一点的说，CSS会阻塞render tree的生成，进而会阻塞DOM的渲染。&lt;/p&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="400" width="260" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="P_pUKtgAsEh5Sawkw4wA-46" value="浏览器遇到&amp;lt;script&amp;gt;标签且没有defer或async属性时会触发页面渲染" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;sketch=1;" vertex="1" parent="1">
+          <mxGeometry x="240.5" y="70" width="149" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
